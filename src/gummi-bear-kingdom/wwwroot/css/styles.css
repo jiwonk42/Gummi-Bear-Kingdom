@@ -1,6 +1,7 @@
 ﻿body {
-    background-color: lightpink;
+    background-color: #fff6db;
     font-size: 20px;
+    color: #666666;
 }
 
 .container-fluid {
@@ -10,13 +11,18 @@
 
 #logo {
     font-family: 'Lobster', cursive;
-    font-size: 37px;
+    font-size: 40px;
     color: skyblue;
 }
 
 .nav-links {
     font-family: 'IM Fell English', serif;
     font-size: 23px;
+}
+
+.content-headings {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
 }
 
 div #home {
@@ -37,11 +43,18 @@ div .jumbotron {
 }
 
 div .container {
-    background-color: cornflowerblue;
+    font-size: 40px;
 }
 
 div .welcome {
-    padding-top: 35px;
-    padding-bottom: 37px;
+    padding: 45px;
     margin-top: 20px;
+}
+
+div .welcome-message {
+    padding: 10px;
+}
+
+div .welcome-message p {
+    font-size: 20px;
 }
