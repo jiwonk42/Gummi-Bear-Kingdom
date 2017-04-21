@@ -7,12 +7,15 @@
 
 <div id="delete">
     <div class="container paragraphs">
-        <h2 class="content-headings">Add New Gummy Bears</h2>
-        <h2>Are you sure you want to delete this?</h2>
-        <hr />
-        @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
+        <h2 class="content-headings">Delete: @Html.DisplayFor(model => model.Name)?</h2>
+        <br />
+
         @using (Html.BeginForm())
         {
-            <input type="submit" value="Delete" />
+            
+            <input type="submit" value="Delete" class="btn btn-md btn-danger"/>
         }
-        @Html.ActionLink("Back to List", "Index")
+        <hr />
+        <h3>@Html.ActionLink("Back to Products", "Index")</h3>
+    </div>
+</div>
