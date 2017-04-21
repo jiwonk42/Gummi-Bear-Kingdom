@@ -5,17 +5,20 @@
 
 @model gummi_bear_kingdom.Models.Product
 
-<h2>Create</h2>
-<hr />
-<h4>Add a new gummy product</h4>
-@using (Html.BeginForm())
-{
-    @Html.LabelFor(model => model.Name)
-    @Html.TextBoxFor(model => model.Name)
-    @Html.LabelFor(model => model.Cost)
-    @Html.TextBoxFor(model => model.Cost)
-    @Html.LabelFor(model => model.Origin)
-    @Html.TextBoxFor(model => model.Origin)
-    <input type="submit" value="Add new product" />
-}
-<p>@Html.ActionLink("Back to list", "Index")</p>
+
+<div id="about-us">
+    <div class="container paragraphs">
+        <h2 class="content-headings">Add New Gummy Bears</h2>
+        <hr />
+        @using (Html.BeginForm())
+        {
+            @Html.LabelFor(model => model.Name)
+            @Html.TextBoxFor(model => model.Name)
+            @Html.LabelFor(model => model.Cost)
+            @Html.TextBoxFor(model => model.Cost)
+            @Html.LabelFor(model => model.Origin)
+            @Html.TextBoxFor(model => model.Origin)
+            <input type="submit" value="Add" class="btn btn-lg btn-info"/>
+        }
+    </div>
+</div>
