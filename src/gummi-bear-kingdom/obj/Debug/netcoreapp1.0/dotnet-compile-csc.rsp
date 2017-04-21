@@ -160,6 +160,8 @@
 "C:\Users\epicodus\desktop\gummi-bear-kingdom\src\gummi-bear-kingdom\Startup.cs"
 "C:\Users\epicodus\desktop\gummi-bear-kingdom\src\gummi-bear-kingdom\Migrations\20170421161647_Initial.cs"
 "C:\Users\epicodus\desktop\gummi-bear-kingdom\src\gummi-bear-kingdom\Migrations\20170421161647_Initial.Designer.cs"
+"C:\Users\epicodus\desktop\gummi-bear-kingdom\src\gummi-bear-kingdom\Migrations\20170421162053_MakeTableNamesPlural.cs"
+"C:\Users\epicodus\desktop\gummi-bear-kingdom\src\gummi-bear-kingdom\Migrations\20170421162053_MakeTableNamesPlural.Designer.cs"
 "C:\Users\epicodus\desktop\gummi-bear-kingdom\src\gummi-bear-kingdom\Migrations\GummiBearDbContextModelSnapshot.cs"
 "C:\Users\epicodus\desktop\gummi-bear-kingdom\src\gummi-bear-kingdom\Models\GummiBearDbContext.cs"
 "C:\Users\epicodus\desktop\gummi-bear-kingdom\src\gummi-bear-kingdom\Models\Product.cs"
