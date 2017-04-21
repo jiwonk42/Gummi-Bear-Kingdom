@@ -198,6 +198,7 @@
 --resource:"C:\Users\epicodus\Desktop\gummi-bear-kingdom\src\gummi-bear-kingdom\obj\Debug\netcoreapp1.0\gummi-bear-kingdomdotnet-compile.deps.json",gummi-bear-kingdom.deps.json
 C:\Users\epicodus\Desktop\gummi-bear-kingdom\src\gummi-bear-kingdom\Program.cs
 C:\Users\epicodus\Desktop\gummi-bear-kingdom\src\gummi-bear-kingdom\Startup.cs
+C:\Users\epicodus\Desktop\gummi-bear-kingdom\src\gummi-bear-kingdom\Controllers\AboutController.cs
 C:\Users\epicodus\Desktop\gummi-bear-kingdom\src\gummi-bear-kingdom\Controllers\HomeController.cs
 C:\Users\epicodus\Desktop\gummi-bear-kingdom\src\gummi-bear-kingdom\Controllers\ProductsController.cs
 C:\Users\epicodus\Desktop\gummi-bear-kingdom\src\gummi-bear-kingdom\Migrations\20170421161647_Initial.cs
