@@ -1,5 +1,6 @@
 ﻿body {
     background-color: #fff6db;
+    font-family: 'Lora', serif;
     font-size: 20px;
     color: #666666;
 }
@@ -42,19 +43,13 @@ div .jumbotron {
     margin: auto;
 }
 
-div .container {
-    font-size: 40px;
-}
-
 div .welcome {
     padding: 45px;
     margin-top: 20px;
 }
 
-div .welcome-message {
+div .paragraphs p {
     padding: 10px;
-}
-
-div .welcome-message p {
     font-size: 20px;
+    font-style: italic;
 }
