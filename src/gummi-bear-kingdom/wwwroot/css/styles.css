@@ -1,3 +1,39 @@
 ﻿body {
+    background-color: lightpink;
+    font-size: 20px;
+}
 
+.container-fluid {
+    padding: 20px;
+    background-color: white;
+}
+
+#logo {
+    font-family: 'Lobster', cursive;
+    font-size: 37px;
+}
+
+div #home {
+    margin-top: -20px;
+    background-color: antiquewhite;
+}
+
+div .jumbotron {
+    margin-top: -68px;
+    height: 600px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+
+div .container {
+    background-color: cornflowerblue;
+}
+
+div .welcome {
+    padding-top: 25px;
+    padding-bottom: 37px;
 }
