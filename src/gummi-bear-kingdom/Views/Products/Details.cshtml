@@ -5,11 +5,16 @@
 
 @model gummi_bear_kingdom.Models.Product
 
-<h2>Details</h2>
-<hr />
-@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
-<br />
-@Html.DisplayNameFor(model => model.Cost): @Html.DisplayFor(model => model.Cost) US dollar(s)
-<br />
-@Html.DisplayNameFor(model => model.Origin): @Html.DisplayFor(model => model.Origin)
-<p>@Html.ActionLink("Back to list", "Index")</p>
+<div id="about-us">
+    <div class="container paragraphs">
+        <h2 class="content-headings">Gummy Product Details</h2>
+        <br />
+        @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
+        <br />
+        @Html.DisplayNameFor(model => model.Cost): @Html.DisplayFor(model => model.Cost) US dollar(s)
+        <br />
+        @Html.DisplayNameFor(model => model.Origin): @Html.DisplayFor(model => model.Origin)
+        <hr />
+        <h3>@Html.ActionLink("Back to Products", "Index")</h3>
+    </div>
+</div>
