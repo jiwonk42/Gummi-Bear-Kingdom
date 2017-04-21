@@ -5,23 +5,26 @@
 
 @model gummi_bear_kingdom.Models.Product
 
-<h2>Edit</h2>
-<hr />
-<h4>Edit this product: @Html.DisplayFor(model => model.Name)</h4>
+<div id="about-us">
+    <div class="container paragraphs">
+        <h2 class="content-headings">Edit: @Html.DisplayFor(model => model.Name)</h2>
+        <br />
+        @using (Html.BeginForm())
+        {
+            @Html.HiddenFor(model => model.ProductId)
 
-@using (Html.BeginForm())
-{
-    @Html.HiddenFor(model => model.ProductId)
+            @Html.LabelFor(model => model.Name)
+            @Html.EditorFor(model => model.Name)
 
-    @Html.LabelFor(model => model.Name)
-    @Html.EditorFor(model => model.Name)
+            @Html.LabelFor(model => model.Cost)
+            @Html.EditorFor(model => model.Cost)
 
-    @Html.LabelFor(model => model.Cost)
-    @Html.EditorFor(model => model.Cost)
+            @Html.LabelFor(model => model.Origin)
+            @Html.EditorFor(model => model.Origin)
 
-    @Html.LabelFor(model => model.Origin)
-    @Html.EditorFor(model => model.Origin)
-
-    <input type="submit" value="Save" />
-}
-<p>@Html.ActionLink("Back to list", "Index")</p>
+            <input type="submit" value="Save" class="btn btn-lg btn-warning"/>
+        }
+        <hr />
+        <h3>@Html.ActionLink("Back to Products", "Index")</h3>
+    </div>
+</div>
