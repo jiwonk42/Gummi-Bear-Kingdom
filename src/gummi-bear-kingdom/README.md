@@ -25,7 +25,6 @@ Clone to repository to a local machine
 * Open up Visual Studio 2015
 * Open "gummi-bear-kingdom" folder from where it is cloned
 * Run the program by clicking on the green triangle button at the top
-```
 
 ## Support and contact details
 
